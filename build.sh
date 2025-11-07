@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --time=04:00:00
 
-cd /iopsstor/scratch/cscs/rmachace/SandboxFusion
+cd /iopsstor/scratch/cscs/rmachace/sandbox
 
 # Build base
 podman build -f ./scripts/Dockerfile.base.us -t code_sandbox:base .
